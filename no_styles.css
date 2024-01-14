@@ -6,20 +6,6 @@ body {
     background-color: #F8C8DC;
 }
 
-/* Position the "No" button absolutely within body */
-#yesButton {
-    position: absolute;
-    margin-left: 150px;
-    transition: 0.5s;
-    /* Smooth movement */
-}
-
-#noButton {
-    position: absolute;
-    margin-right: 150px;
-    /* Smooth movement */
-}
-
 .header_text {
     font-family: 'Nunito';
     font-size: 50px;
@@ -38,6 +24,26 @@ body {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Position the "No" button absolutely within body */
+#noButton {
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+    /* Smooth movement */
+}
+
+#yesButton {
+    position: absolute;
+    margin-right: 150px;
+    /* Smooth movement */
 }
 
 .buttons {
@@ -66,10 +72,4 @@ body {
 
 .btn:hover {
     background-color: #FAF9F6;
-}
-
-.gif_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
